@@ -17,14 +17,6 @@ const Navbar = () => {
                     <img src={logo} alt="logo" className="w-9 h-9 object-contain rounded-full" />
                     <p className="text-white text-[16px] font-bold cursor-pointer hidden sm:flex">Alessandro Baldassarre</p>
                 </Link>
-                <ul className="list-none hidden sm:flex flex-row gap-10">
-                    {navLinks.map((link) => (
-                        <li key={link.id} className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
-                            onClick={() => { setActive(link.title) }}>
-                            <a href={`#${link.id}`}>{link.title}</a>
-                        </li>
-                    ))}
-                </ul>
 
                 {/* ~~~~ MOBILE MENU ~~~~~ */}
                 <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -41,6 +33,17 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
+
+                {/* ~~~~~~ MENU ~~~~~~~ */}
+                <ul className="list-none hidden sm:flex flex-row gap-10">
+                    {navLinks.map((link) => (
+                        <li key={link.id} className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
+                            onClick={() => { setActive(link.title) }}>
+                            <a href={`#${link.id}`}>{link.title}</a>
+                        </li>
+                    ))}
+                </ul>
+
             </div>
         </nav>
     )
