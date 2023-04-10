@@ -13,8 +13,8 @@ function App() {
 
     return (
         <BrowserRouter>
-            <div className="relative z-0 bg-primary">
-                <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+            <div className="relative z-0 bg-black">
+                <div className="bg-none xl:bg-hero-pattern xl:bg-cover xl:bg-no-repeat xl:bg-center">
                     <Navbar />
                     <Hero />
                 </div>
