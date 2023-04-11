@@ -9,7 +9,7 @@ import { experiences } from "../constants"
 
 const ExperienceCard = ({ experience }) => {
     return (
-        <VerticalTimelineElement contentStyle={{ background: "#1d1836", color: "#fff" }} contentArrowStyle={{ borderRight: "7px solid #232631" }} date={experience.date}
+        <VerticalTimelineElement contentStyle={{ background: "#050816", color: "#fff" }} contentArrowStyle={{ borderRight: "7px solid #FF6700" }} date={experience.date}
             icon={<div className="w-full h-full grid place-content-center">
                 <img src={experience.icon} alt={experience.company_name} className="object-contain p-3" />
             </div>}
