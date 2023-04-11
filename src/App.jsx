@@ -14,19 +14,15 @@ function App() {
     return (
         <BrowserRouter>
             <div className="relative z-0 bg-black">
-                <div className="bg-none xl:bg-hero-pattern xl:bg-cover xl:bg-no-repeat xl:bg-center">
-                    <Navbar />
-                    <Hero />
-                </div>
+                <Stars />
+                <Navbar />
+                <Hero />
                 <About />
                 <Tech />
                 <Experience />
                 <Works />
                 {/* <Feedbacks /> */}
-                <div className="relative z-0">
-                    <Contact />
-                    <Stars />
-                </div>
+                <Contact />
             </div>
         </BrowserRouter>
     )
