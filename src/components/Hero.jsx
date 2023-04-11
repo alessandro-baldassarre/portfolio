@@ -19,9 +19,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="xl:hidden w-full h-screen">
-                <Computers />
-            </div>
+            <Computers />
 
             <div className="absolute xs:bottom-10 bottom-16 w-full flex justify-center items-center" >
                 <a href="#about">
