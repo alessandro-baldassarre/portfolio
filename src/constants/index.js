@@ -23,6 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    logo,
+    finance,
+    baldaflix,
+    movixlogo,
+    social,
+
 } from "../assets";
 
 export const navLinks = [
@@ -109,54 +115,40 @@ const technologies = [
 const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        company_name: "Freelancer",
+        icon: logo,
+        iconBg: "#000000",
+        date: "June 2022 - Present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        title: "Full stack Web Developer",
+        company_name: "Mercurio Sistemi",
+        icon: web,
+        iconBg: "#000000",
+        date: "June 2022 - December 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing front-end website architecture using Vue.js.",
+            "Developing back-end website architecture using Symfony(PHP).",
+            "Designing and developing APIs.",
+            "Creating servers and databases for functionality.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        title: "Junior Full stack Web Developer",
+        company_name: "Boolean Careers",
+        icon: web,
+        iconBg: "#000000",
+        date: "January 2022 - June 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Over 700 hours of training in which I learned different programming languages: HTML, CSS, JavaScript, PHP, SQL, etc...",
+            "Completed several projects such as: Netflix Replication, Spotify Web Replication, WhatsApp Web Replication, etc...",
+            "Designing and developing APIs.",
+            "Creating servers and databases for functionality.",
         ],
     },
 ];
@@ -190,9 +182,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Social App",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based social app platform that allows users after registration to add friends to their list, share posts, update their personal profiles and all the other features for a commom social app.",
         tags: [
             {
                 name: "react",
@@ -203,19 +195,19 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "express",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-        site: "http://github.com",
-        icon: "",
+        image: social,
+        source_code_link: "https://github.com/alessandro-baldassarre/balda-social",
+        site: "https://balda-social.vercel.app/",
+        icon: mobile,
     },
     {
-        name: "Job IT",
+        name: "BaldaFlix",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Movies database application that allows users to search, see the trailer, stay updated on current trends divided by categories and many more features.",
         tags: [
             {
                 name: "react",
@@ -230,33 +222,33 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-        site: "http://github.com",
-        icon: "",
+        image: baldaflix,
+        source_code_link: "https://github.com/alessandro-baldassarre/baldaflix",
+        site: "https://baldaflix.vercel.app/",
+        icon: movixlogo,
     },
     {
-        name: "Trip Guide",
+        name: "Finance Dashboard",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A comprehensive Finance Dashboard App that has Machine Learning Predictions. The data is stored in a MongoDB database and fetched throw API created with Nodejs.",
         tags: [
             {
-                name: "nextjs",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "express",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "mongodb",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-        site: "http://github.com",
-        icon: "",
+        image: finance,
+        source_code_link: "https://github.com/alessandro-baldassarre/finance-dashboard",
+        site: "https://finance-dashboard-ten.vercel.app/",
+        icon: web,
     },
 ];
 

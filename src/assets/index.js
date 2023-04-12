@@ -29,6 +29,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import finance from "./finance.png";
+import baldaflix from "./baldaflix.png";
+import movixlogo from "./movix-logo.png";
+import social from "./social.png"
+
 
 export {
     logo,
@@ -59,4 +64,8 @@ export {
     carrent,
     jobit,
     tripguide,
+    finance,
+    baldaflix,
+    movixlogo,
+    social
 };
