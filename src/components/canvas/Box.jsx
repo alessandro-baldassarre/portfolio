@@ -41,7 +41,7 @@ const BoxCanvas = () => {
     return (
         <Canvas
             camera={{ fov: 70, near: 0.01, far: 100, position: [0, 0, 6] }}
-            style={{ height: '100%', width: "100%", backgroundColor: 'black' }}
+            style={{ height: '100%', width: "100%", backgroundColor: 'transparent' }}
         >
             <Suspense fallback={CanvasLoader}>
                 <Box />
