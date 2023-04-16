@@ -1,6 +1,7 @@
 import { styles } from '../styles'
 import { motion } from "framer-motion"
 import GeometriesCanvas from './canvas/Geometries'
+import BoxCanvas from './canvas/Box'
 
 const Hero = () => {
     return (
@@ -19,9 +20,10 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="absolute bottom-5 right-0 w-full md:w-[70%] h-full">
-                <GeometriesCanvas />
+            <div className="absolute right-1/4 w-[50%] h-[50%] bottom-40">
+                <BoxCanvas />
             </div>
+
 
 
             <div className="absolute xs:bottom-10 bottom-16 w-full flex justify-center items-center" >
