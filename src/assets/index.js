@@ -32,7 +32,8 @@ import tripguide from "./tripguide.png";
 import finance from "./finance.png";
 import baldaflix from "./baldaflix.png";
 import movixlogo from "./movix-logo.png";
-import social from "./social.png"
+import studio from "./want-studio.png";
+import studio_icon from "./studio-icon.ico"
 
 
 export {
@@ -67,5 +68,6 @@ export {
     finance,
     baldaflix,
     movixlogo,
-    social
+    studio,
+    studio_icon
 };

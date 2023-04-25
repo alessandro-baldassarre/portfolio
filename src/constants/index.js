@@ -27,7 +27,8 @@ import {
     finance,
     baldaflix,
     movixlogo,
-    social,
+    studio,
+    studio_icon,
 
 } from "../assets";
 
@@ -178,27 +179,27 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Social App",
+        name: "Want Studio",
         description:
-            "Web-based social app platform that allows users after registration to add friends to their list, share posts, update their personal profiles and all the other features for a commom social app.",
+            "Fashion Studio website with animations, smooth transitions and scroll behaviour. All using the most customizable libraries like framer-motion, gsap, locomotive-scroll and many mores.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "framer-motion",
                 color: "green-text-gradient",
             },
             {
-                name: "express",
+                name: "gsap",
                 color: "pink-text-gradient",
             },
         ],
-        image: social,
-        source_code_link: "https://github.com/alessandro-baldassarre/balda-social",
-        site: "https://balda-social.vercel.app/",
-        icon: mobile,
+        image: studio,
+        source_code_link: "https://github.com/alessandro-baldassarre/fashion-studio",
+        site: "https://want-studio.vercel.app/",
+        icon: studio_icon,
     },
     {
         name: "BaldaFlix",
